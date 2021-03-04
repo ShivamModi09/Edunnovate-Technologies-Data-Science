@@ -7,8 +7,7 @@ Welcome to the course! This week, the topics we'll discuss about-
 - Data Distribution
 - Data Preparation using Pandas
 - Numpy
-- Calculus
-- Linear Algebra
+- Mathematics for Data Science
 
 ## Introduction
 
@@ -28,7 +27,7 @@ Before creating analytical models, a data scientist must develop an understandin
 
 Thus, visualization for data exploration is an essential data science skill. Here, we’ll learn to analyze data via various types of plots offered by matplotlib and seaborn library.
 
-#### Useful Resources
+### Useful Resources
 
 ## Data Distribution
 
@@ -36,6 +35,8 @@ Thus, visualization for data exploration is an essential data science skill. Her
 
 ## Numpy 
 
-## Calculas 
+## Mathematics for Data Science
 
-## Linear Algebra
+### Calculas
+
+### Linear Algebra
