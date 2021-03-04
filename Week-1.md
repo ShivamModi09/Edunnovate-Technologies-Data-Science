@@ -1,1 +1,2 @@
-**Welcome to the 1st week of the course!**
+# Welcome to the 1st week of the course!
+***
