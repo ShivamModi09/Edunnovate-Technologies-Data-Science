@@ -31,11 +31,31 @@ Thus, visualization for data exploration is an essential data science skill. Her
 
 ## Data Distribution
 
+The data that we have for our model can come from a variety of distributions. Having an understanding of the data distribution helps in making an informed decision about the model that we can use. Let us briefly talk about some data distributions -
+
 ## Data Preparations using Pandas
 
+### Introduction to Pandas
+It's an open source data analysis library for providing easy-to-use data structures and data analysis tools. It comes handy for data manipulation and analysis.
+
+### Benifits
+- A lot of functionality
+- Active community
+- Extensive documentation
+- Plays well with other packages
+- Built on top of NumPy
+- Works well with scikit-learn
+
 ## Numpy 
+### Introduction
+
+NumPy (Numerical Python) is a linear algebra library in Python. It is a very important library on which almost every data science or machine learning Python package such as SciPy (Scientific Python), Mat−plotlib (plotting library), Scikit-learn, etc depends on to a great extent. 
+NumPy is very useful for performing mathematical and logical operations on Arrays. It provides an abundance of useful features for operations on n-arrays and matrices in Python. 
+One of the main advantages of Numpy is that vectorisation using numpy arrays makes it super time efiicient. It enables parallel computation that makes it so fast and hence extremely useful.
 
 ## Mathematics for Data Science
+
+Calculus and Linear Algebra are an integral part of Machine Learning. Let us brush up the basics so that our study of Machine Learning can be smooth and rigorous. 
 
 ### Calculas
 
