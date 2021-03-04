@@ -2,7 +2,7 @@
 ***
 Welcome to the course! This week, the topics we'll discuss about-
 
-- Introduction to Machine Learning
+- Introduction
 - Data Visualisation using Matplotlib
 - Data Distribution
 - Data Preparation using Pandas
@@ -10,9 +10,9 @@ Welcome to the course! This week, the topics we'll discuss about-
 - Calculus
 - Linear Algebra
 
-## Introduction to Machine Learning
+## Introduction
 
-Even though ML doesn't actually need an introduction in today's world, where millions of people research in this field, and where every other day there's a new state of the art techinique. Machine Learning is basically automating and improving the learning process of computers based on their experiences without being actually programmed i.e. without any human assistance.
+Even though Artificial Intelligence doesn't actually need an introduction in today's world, where millions of people research in this field, and where every other day there's a new state of the art techinique. Data Science is basically automating and improving the learning process of computers based on their experiences without being actually programmed i.e. without any human assistance. At its core, data science is a field of study that aims to use a scientific approach to extract meaning and insights from data. Machine learning, on the other hand, refers to a group of techniques used by data scientists that allow computers to learn from data. These techniques produce results that perform well without programming explicit rules.
 
 In Traditional Programming, We feed in Data (Input) + Program (Logic), run it on machine and get output.
 
