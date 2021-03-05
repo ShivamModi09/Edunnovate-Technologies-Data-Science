@@ -6,7 +6,7 @@ Welcome to the Week 2! Having laid the foundations of Machine Learning, this wee
 - Predicting Future or the unknown
 
 ## Pyhton Packages for Data Science
-As, we'll be using Python for this course, here are the important Python packages for a data scientist that will be needed for the projects. 
+As, Python is used in this course, here are the important Python packages for a data scientist that will be needed for our projects. 
 
 ### 1) Scientific Computing Libraries
 - Pandas (Data Structures and tools)
