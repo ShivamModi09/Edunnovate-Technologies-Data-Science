@@ -48,7 +48,6 @@ It's an open source data analysis library for providing easy-to-use data structu
 
 ## Numpy 
 ### Introduction
-
 NumPy (Numerical Python) is a linear algebra library in Python. It is a very important library on which almost every data science or machine learning Python package such as SciPy (Scientific Python), Mat−plotlib (plotting library), Scikit-learn, etc depends on to a great extent. 
 NumPy is very useful for performing mathematical and logical operations on Arrays. It provides an abundance of useful features for operations on n-arrays and matrices in Python. 
 One of the main advantages of Numpy is that vectorisation using numpy arrays makes it super time efiicient. It enables parallel computation that makes it so fast and hence extremely useful.
@@ -60,3 +59,4 @@ Calculus and Linear Algebra are an integral part of Machine Learning. Let us bru
 ### Calculas
 
 ### Linear Algebra
+
