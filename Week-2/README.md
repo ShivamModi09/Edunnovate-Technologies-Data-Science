@@ -20,3 +20,5 @@ As, Python is used in this course, here are the important Python packages for a 
 ### 3) Algorithmic Libraries
 - Scikit-learn (ML: Rergession, Classification)
 - Stats-models (Explore data, estimate statistical models and perform statistical tests)
+
+
