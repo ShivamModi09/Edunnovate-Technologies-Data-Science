@@ -58,7 +58,7 @@ where X is a vector containing all the features and Θ is a vector containing al
 
 We define a function called the Cost Function that accounts for the prediction errors of the model. We try to minimize the cost function so that we can obtain a model that fits the data as good as possible. To reach the optima of the cost function, we employ a method that is used in almost all of machine learning called Gradient Descent.
 
-Go through [this](https://github.com/ShivamModi09/Edunnovate-Technologies-Data-Science/blob/main/Week-2/Linear%20Regression.txt) file to understand the linear model concepts in detail, as it's a very essential and basic concept in Data Science. 
+Strictly go through [Linear Regression]() pdf file given above to understand the linear model concepts in detail, as it's a very essential and most basic concept for every complex model in Data Science. 
 
 
 
