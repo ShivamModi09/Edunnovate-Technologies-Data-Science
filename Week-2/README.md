@@ -58,8 +58,39 @@ where X is a vector containing all the features and Θ is a vector containing al
 
 We define a function called the Cost Function that accounts for the prediction errors of the model. We try to minimize the cost function so that we can obtain a model that fits the data as good as possible. To reach the optima of the cost function, we employ a method that is used in almost all of machine learning called Gradient Descent.
 
-Strictly go through [Linear Regression]() pdf file given above to understand the linear model concepts in detail, as it's a very essential and most basic concept for every complex model in Data Science. 
+Strictly go through [Linear Regression](https://github.com/ShivamModi09/Edunnovate-Technologies-Data-Science/blob/main/Week-2/LinearRegression.pdf) pdf file given above to understand the linear model concepts in detail, as it's a very essential and most basic concept for every complex model in Data Science. 
 
+Now let us look at us some of other Regression models just for our knowledge but for a note, these are not widely used.  
 
+## Segmented Regression
+It is also referred to as Piecewise Regression or Broken Stick Regression. Unlike standard Linear Regression, we fit separate line segments to intervals of independent variables. Formally stating, independent linear models are assigned to individual partitions of feature spaces. This is pretty useful in the cases when the data assumes different linear relationships in separate intervals of the feature values. Generally, applying linear regression on such tasks can incur large statistical losses.
 
+It is important to note that despite it's better accuracy, it can be computationally inefficient because many independent linear regressions have to be performed.
 
+The points where the data is split into intervals are called Break Points. There are various statistical tests that are to be performed in order to determine the break points but the details of those tests are beyond the scope of this course.
+
+## Locally Weighted Regression
+In Locally Weighted Regression, we try to fit a line locally to the point of prediction. What it means is that we give more emphasis to the training data points that are close to the point where prediction is to be made. A weight function (generally a bell shaped function) is used to determine the amount of emphasis given to a data point for prediction. This kind of model comes under Non Parametric Learning unlike the Parametric Learning models that we have seen so far.
+
+Such models are useful when the training data is small and has small number of features. It is computationally inefficient because a linear regression is performed everytime we need to predict some value. But at the same time, this allows us to fit even complicated non-linear curves with ease.
+
+## Exploratory Data Analysis
+Last week, we learned about Data Visualisation and Exploration. To get hands on experience on Data Analysis on Regression and Classification, refer to the links below -
+
+-[Regression](https://github.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/blob/master/Module2/VisualizingDataForRegression.ipynb)
+-[Classification](https://github.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/blob/master/Module2/VisualizingDataForClassification.ipynb)
+Now finally let us look into one important aspect of data analysis that is important for machine learning, data cleaning.
+
+## Data Pre-Processing
+Let us consider a simple classification problem using logistic regression. Suppose you have 10 columns in your data which would make up the raw features given to you. A naive model would involve training your classifier using all these columns as features. However are all the features equally relevant? This may not be the case. As a worst case example suppose all the data entries in your training set have the same value. Then it does not make sense to consider this as a feature since any tweaking to the parameter corresponding to this feature that you do can be done by changing the bias term as well. This is a redundant input feature that you should remove. Similarly if you have a column that has very low variance it may make sense to remove this feature from your dataset as well. When we work with high dimensional data sometimes it makes sense to work with fewer dimensions. Thus it makes sense to remove the lower variance dimensions. 
+
+Another way we can clean and improve our data is by performing appropriate transformations on the data. Consider the task of Sentiment Classification using Logistic Regression. You are given a tweet and you have to state whether it expresses happy or sad sentiment. You could just take the tweet in and feed it into the classifier (using a particular representation, the details aren't important). But do all the words really matter?
+
+Consider a sample tweet
+
+#FollowFriday @France_Inte @PKuchly57 @Milipol_Paris for being top engaged members in my community this week :)
+Clearly any tags in this tweet are irrelevant. Similarly symbols like '#' are also not needed. Thus we need to clean the input data to remove all this unnecesary information. Further in Natural Language Processing words like 'for', 'in' do not contribute to the sentiment and a proper classification would require us to remove this as well. All of this comes under data cleaning and preprocessing.
+
+The preprocessed version of the above tweet would be:
+
+['followfriday', 'top', 'engag', 'member', 'commun', 'week', ':)']
