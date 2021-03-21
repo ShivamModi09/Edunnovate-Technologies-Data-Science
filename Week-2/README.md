@@ -97,3 +97,5 @@ Clearly any tags in this tweet are irrelevant. Similarly symbols like '#' are al
 The preprocessed version of the above tweet would be:
 ['followfriday', 'top', 'engag', 'member', 'commun', 'week', ':)']
 
+## Assignment
+Follow **[this link](https://colab.research.google.com/drive/1EbCL33BI7Sfgw_Gzr1atrcGEnLJo0gw3?usp=sharing)** to run the assignment. Give yourself time here because it will set benchmark to next week's Assignment. 
