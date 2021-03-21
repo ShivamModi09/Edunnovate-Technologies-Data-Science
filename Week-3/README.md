@@ -25,3 +25,5 @@ Kaggle is an online community of data scientists and machine learning practition
 You can download the data from [here](https://www.kaggle.com/c/titanic/data) and participate in the competition.
 
 It's advised to do this by your own but still if you want, you can refer the above file for your pursual. 
+
+This week is devoted only to Data Analytics techniques and its practice. So, here I conclude this week and from next week, we'll work on important Machine Learning algorithms used by Data Engineers and Machine Learning Engineers.
