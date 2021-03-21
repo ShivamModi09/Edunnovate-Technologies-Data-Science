@@ -31,7 +31,7 @@ Thus, visualization for data exploration is an essential data science skill. Her
 Matplotlib is an amazing visualization library in Python for 2D plots of arrays. Matplotlib is a multi-platform data visualization library built on NumPy arrays and designed to work with the broader SciPy stack. It was introduced by John Hunter in the year 2002.
 One of the greatest benefits of visualization is that it allows us visual access to huge amounts of data in easily digestible visuals. Matplotlib consists of several plots like line, bar, scatter, histogram etc.
 
-Follow [this](https://colab.research.google.com/drive/1G-mdTi7C21lpisiUoSS-jq6_5jRHLpd3?usp=sharing) matplotlib tutorial to get hands on coding experience.
+Follow [this](https://colab.research.google.com/drive/1UoTT78DlYcOcDCYrWNC9pX_x8AWbR40C?usp=sharing) matplotlib tutorial to get hands on coding experience.
 
 ## Data Distribution
 
