@@ -12,5 +12,15 @@ Welcome to Week 3! This week we will be covering rest of essential Data Analysis
 - ANOVA
 
 ## Data Analytics techniques and Assignment-1
-Use this following assignment link and give yourself time as this is very important assignment conceptually as well as technical practice wise. You'll learn and apply above contents in this assignment.
+Use this following assignment link or Download it from above Week 3 files list and give yourself time here as this is final and very important assignment conceptually as well as regarding technical practice wise. You'll learn in detail and apply above given contents in this assignment.
 - **[Data Analysis Assignment-1](https://colab.research.google.com/drive/1AdGbO_A40pGOxxBs5kCfvrOyuAQyX5o4?usp=sharing)**
+
+Hope you enjoyed and learn atmost you can from the Assignment-1. Now, it's time to work on real-world problem and participate in Kaggle's competition.
+
+### Kaggle
+Kaggle is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
+
+### [Titanic-Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview)
+You can download the data from [here](https://www.kaggle.com/c/titanic/data) and participate in the competition.
+
+It's advised to do this by your own but still if you want, you can refer the above file for your pursual. 
