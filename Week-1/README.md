@@ -65,13 +65,13 @@ It's an open source data analysis library for providing easy-to-use data structu
 - Built on top of NumPy
 - Works well with scikit-learn
 
-To gain hands on experience, check out [this](https://github.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/blob/master/Module3/DataPreparation.ipynb) assignment.
-
 ## Numpy 
 ### Introduction
 NumPy (Numerical Python) is a linear algebra library in Python. It is a very important library on which almost every data science or machine learning Python package such as SciPy (Scientific Python), Mat−plotlib (plotting library), Scikit-learn, etc depends on to a great extent. 
 NumPy is very useful for performing mathematical and logical operations on Arrays. It provides an abundance of useful features for operations on n-arrays and matrices in Python. 
 One of the main advantages of Numpy is that vectorisation using numpy arrays makes it super time efiicient. It enables parallel computation that makes it so fast and hence extremely useful.
+
+You'll get to practice all this later ahead in course where you'll learn Data Analysis with Python.
 
 ## Mathematics for Data Science
 
