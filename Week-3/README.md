@@ -11,5 +11,6 @@ Welcome to Week 3! This week we will be covering rest of essential Data Analysis
 - Correlation and Causation
 - ANOVA
 
+## Data Analytics techniques and Assignment-1
 Use this following assignment link and give yourself time as this is very important assignment conceptually as well as technical practice wise. You'll learn and apply above contents in this assignment.
-- **[Data Analysis](https://colab.research.google.com/drive/1AdGbO_A40pGOxxBs5kCfvrOyuAQyX5o4?usp=sharing)**
+- **[Data Analysis Assignment](https://colab.research.google.com/drive/1AdGbO_A40pGOxxBs5kCfvrOyuAQyX5o4?usp=sharing)**
