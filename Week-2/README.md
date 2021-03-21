@@ -87,7 +87,7 @@ We'll practice everything later in the assignment, so for now learn everything b
 
 Another way we can clean and improve our data is by performing appropriate transformations on the data. Consider the task of Sentiment Classification using Logistic Regression. You are given a tweet and you have to state whether it expresses happy or sad sentiment. You could just take the tweet in and feed it into the classifier (using a particular representation, the details aren't important). But do all the words really matter?
 
-Consider a sample tweet
+Consider a sample tweet:
 #FollowFriday @France_Inte @PKuchly57 @Milipol_Paris for being top engaged members in my community this week :)
 
 Clearly any tags in this tweet are irrelevant. Similarly symbols like '#' are also not needed. Thus we need to clean the input data to remove all this unnecesary information. Further in Natural Language Processing words like 'for', 'in' do not contribute to the sentiment and a proper classification would require us to remove this as well. All of this comes under data cleaning and preprocessing.
