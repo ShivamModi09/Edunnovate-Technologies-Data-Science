@@ -7,4 +7,4 @@ You can download the data from [here](https://www.kaggle.com/c/titanic/data) and
 
 It's advised to do this by your own but still if you want, you can refer the above file for your pursual. 
 
-The course upto now was devoted to Data Analytics and Machine Learning techniques. So, here I conclude this week and from next week, we'll work on important Deep Learning techniques.
+The course upto now was devoted to Data Analytics and Machine Learning techniques. So, here we conclude this week and from next week, we'll learn about important Deep Learning techniques where most of research happens presently.
