@@ -14,7 +14,7 @@ Last week you studied about various machine learning algorithms.It’s a pertine
 First of All, let us understand what Neural Networks actually are and where this idea came from.
 
 ## What are Neural Networks ?
-**
+
 Human Brain is the most wonderful entity and it’s really amazing to understand how it works. Ever wondered how a small child learns to adapt to such a sophisticated world with time. This is because our brain has the ability to learn everything itself on the basis of its own learning algorithm which led to an idea of imitating the human brain and creating Neural networks whose working principles are based on the human brain.
 
 Recently in the field of computer science neural networks has attracted a great deal of attention from many people. From doing various tasks like face recognition and speech recognition, to Healthcare and Marketing, Neural networks are widely used today. 
