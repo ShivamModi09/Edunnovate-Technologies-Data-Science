@@ -14,24 +14,31 @@ Last week you studied about various machine learning algorithms.It’s a pertine
 First of All, let us understand what Neural Networks actually are and where this idea came from.
 
 ## What are Neural Networks ?
+**
 Human Brain is the most wonderful entity and it’s really amazing to understand how it works. Ever wondered how a small child learns to adapt to such a sophisticated world with time. This is because our brain has the ability to learn everything itself on the basis of its own learning algorithm which led to an idea of imitating the human brain and creating Neural networks whose working principles are based on the human brain.
+
 Recently in the field of computer science neural networks has attracted a great deal of attention from many people. From doing various tasks like face recognition and speech recognition, to Healthcare and Marketing, Neural networks are widely used today. 
 Neural Networks Representation:
+
 An artificial Neural network is the functional unit of Deep learning which is itself a part of Machine learning which itself  is a subfield of Artificial Intelligence. 
 Neural networks were developed as simulating neurons or networks of neurons in the brain. So to understand this hypothesis representation, let’s have a look at what a single neuron in the brain looks like.
 
 Neurons have input wires called Dendrites which receive information from various locations. A neuron also has an output wire called Axon which sends messages to other neurons.  
 
 Similarly an artificial Neural networks function when an input data is provided to it. Then this data is processed via layers of perceptrons to give a desired output. 
-Let’s try to understand this with an example. Consider a situation in which the task is to recognize the given shape. Let consider the shape to be distributed into 28\*28 pixels which makes up for 784 pixels and is fed as an input to each neuron of the first layer. Neurons of the first layer are connected to neurons of the next layer through channels and each of these
-channels has its own value known as Weight. This value is then passed through a threshold function called the Activation function. The result of the activation function determines if the particular neuron is activated or not.
+Let’s try to understand this with an example. Consider a situation in which the task is to recognize the given shape. Let consider the shape to be distributed into 28\*28 pixels which makes up for 784 pixels and is fed as an input to each neuron of the first layer. Neurons of the first layer are connected to neurons of the next layer through channels and each of these channels has its own value known as Weight. This value is then passed through a threshold function called the Activation function. The result of the activation function determines if the particular neuron is activated or not.
+
 An activated neuron transmits data to the neurons of the next layer over the channels and this is how the data is propagated through the network and this is called Forward propagation. In the output layer the neuron with the highest value determines the output. These values are basically a probability.
-Our network also has the output fed to it. The predicted output is then compared with the actual output to calculate the error in the prediction. The magnitude of the error indicates how wrong we are and the sign suggests if our predicted values are higher or lower than expected. This information is then relocated backward through our network. This is known as Back propagation. 
-Based on this information the weights are adjusted. This cycle of forward propagation and backpropagation is iteratively performed with multiple inputs. The process goes on until we get appropriate weights that produce correct output and predict our shape correctly.
+
+Our network also has the output fed to it. The predicted output is then compared with the actual output to calculate the error in the prediction. The magnitude of the error indicates how wrong we are and the sign suggests if our predicted values are higher or lower than expected. This information is then relocated backward through our network. This is known as Back propagation. Based on this information the weights are adjusted. This cycle of forward propagation and backpropagation is iteratively performed with multiple inputs. The process goes on until we get appropriate weights that produce correct output and predict our shape correctly.
+
 BackPropagation: The main feature of backpropagation is its iterative, recursive and efficient method for calculating the weights updates to improve the network until it is able to perform the task for which it is being trained.
+
 Deep Neural Networks and RNNs suffer with vanishing and exploding gradient problems due to the nature of the activation functions. LSTMs do not suffer from vanishing gradient problems but can have exploding gradient problems.
+
 This was a basic idea of how Artificial Neural Networks actually work.
-You can find whole our article paper on this in above Week-5 folder. Go through it.
+
+You can find whole our article paper on this in above Week-5 folder's Neural Network pdf. Kindly Go through it to understand better.
 
 This week, we'll study about feedforward neural networks.
 
