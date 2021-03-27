@@ -93,16 +93,11 @@ LSTMs are used in various applications such as:
 
 But, the Networks we'll work on are explained in detail in the 'Types of Neural Networks' pdf under week-5 section.
 
-## Assignment
-***
-
 ## **Forward Propagation**: <br/>
 To put it simply, the process that runs inside a neuron for forward propagation is, the neuron takes n input data (training examples) x1, x2,..., xn and first assigns random weights and biases to all the input variables and calculate their weighted sum Z, and further pass it inside an activation function, g(x) such as a sigmoid (later we'll also talk about other alternatives for it),giving g(Z) = A. 
 <br/>
 Similarly, we calculate this activation, A for all the neurons in all the layers. The activations of the previous layer act as input data for the next layer and the activation of the last layer gives the output, y^(y-hat)
-* Refer to this [3blue1brown video](https://www.youtube.com/watch?v=aircAruvnKk) to have a good visualisation
-* Refer to this [article](https://towardsdatascience.com/forward-propagation-in-neural-networks-simplified-math-and-code-version-bbcfef6f9250) to understand more and implement code as well.
-<br/><br/>
+<br/>
 ### **Activation Functions** <br/>
 We can use different types of activation functions such as sigmoid, tanh, Relu (rectified linear unit), leaky relu.
 Though, we generally prefer tanh over sigmoid since, both have similar properties, but tanh gives output whose mean can be centralised to 0 and has some other benefits too.
@@ -128,9 +123,8 @@ Under Back Propagation, we use the loss calculated using loss function to make c
 
 ## Multi-class Classification using NN
 Rather than just to classify an object between yes/no. If we wish to classify it into more than 2 items using NN, we can do it similarly just the only difference will be that the output yhat will be a Mx1 matrix rather than 1x1 for a m class classifier.
-- refer this [video](https://www.youtube.com/watch?v=gAKQOZ5zIWg) to understand how we do it
 - refer this [article](https://towardsdatascience.com/multi-label-image-classification-with-neural-network-keras-ddc1ab1afede) to see it's implementatin.
-- For implementation, if you prefer videos refer [this](https://www.youtube.com/watch?v=oOSXQP7C7ck)
+
 
 ## Useful Resources
 - A read to these notes: [CS229](http://cs229.stanford.edu/notes/cs229-notes-deep_learning.pdf) , [Multi Layer NN](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/) and [CS229:Backprop](http://cs229.stanford.edu/notes/cs229-notes-backprop.pdf) is a worth to compile your understandings
@@ -138,17 +132,15 @@ Rather than just to classify an object between yes/no. If we wish to classify it
 - Check this [link](https://medium.com/@shaistha24/basic-concepts-you-should-know-before-starting-with-the-neural-networks-nn-3-6db79028e56d) for an intuitive run through and answers to few questions rising inside you.
 ## Additional Resources to explore
 - Refer to this [article](http://neuralnetworksanddeeplearning.com/chap3.html) to know more intuitively about various topics and learn how to improve your model.
-## Exercises
+
+## Assignment
+***
 Implementing all of this in a code and making a neural network of your own will make your understanding better. <br/>
 Use Vectorization to do so rather than using for loops. If you don't know how to do so refer to [this](https://towardsdatascience.com/vectorization-implementation-in-machine-learning-ca652920c55d) article.
-1. First, build a code for a perceptron(i.e. a single neuron and no hidden layers) and build a AND gate using it.
-2. Now, try to build a XOR gate using a perceptron and share your results with us.
-3. Implement a XOR gate again, this time you can use a single hidden layer.<br/>
 
-
-**IMPortant:** Do not use scikit learn or keras or any other libraries. Implement the codes from scratch using numpy.<br/>
+**Important:** Do not use scikit learn or keras or any other libraries. Implement the codes from scratch using numpy.<br/>
 Implement seperate functions such as initialization, forward propagation, cost calculation and back propagation and then compile all of it in a class/function and test your neural net.
 
 ---
 
-That's it for this week. Next week you'll learn tensorflow and pytorch which will work as very helpful tools to implement all the algorithms you would have learnt upto then. If time permits, we'll also continue more with other NN such as CNNs and RNNs. Next week's going to last of fun learning, Stay Tuned.
+That's it for this week. Next week you'll learn tensorflow and pytorch which will work as very helpful tools to implement all the algorithms you would have learnt upto then. Next week's going to last of fun learning, Stay Tuned.
