@@ -1,4 +1,4 @@
-# Welcome to Week 5 of LS Machine Learning! 
+# Welcome to Week 6 of Data Science! 
 This week we will be covering the following topics: 
 * Introduction to Tensorflow and Keras 
 * Introduction to Convolutional Neural Networks
