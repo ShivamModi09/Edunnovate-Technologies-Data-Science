@@ -77,7 +77,7 @@ Such models are useful when the training data is small and has small number of f
 ## Exploratory Data Analysis
 Last week, we learned about Data Visualisation and Exploration. To get hands on experience on Data Analysis on Regression and Classification, refer to the links below -
 
-- [Regression](https://github.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/blob/master/Module2/VisualizingDataForRegression.ipynb)
+- [Regression](https://github.com/ShivamModi09/Edunnovate-Technologies-Data-Science/blob/main/Week-2/VisualizingDataForRegression.ipynb)
 - [Classification](https://github.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/blob/master/Module2/VisualizingDataForClassification.ipynb)
 
 Now finally let us look into one important aspect of data analysis that is important for machine learning, data pre-processing.
