@@ -130,10 +130,12 @@ Rather than just to classify an object between yes/no. If we wish to classify it
 ## Assignment
 ***
 Implementing all of this in a code and making a neural network of your own will make your understanding better. <br/>
-Use Vectorization to do so rather than using for loops. If you don't know how to do so refer to [this](https://towardsdatascience.com/vectorization-implementation-in-machine-learning-ca652920c55d) article.
+Use Vectorization to do so rather than using for loops. 
 
 **Important:** Do not use scikit learn or keras or any other libraries. Implement the codes from scratch using numpy.<br/>
-Implement seperate functions such as initialization, forward propagation, cost calculation and back propagation and then compile all of it in a class/function and test your neural net.
+Implement seperate functions such as initialization, forward propagation, cost calculation and back propagation and then compile all of it in a class/function and test your neural net.<br/>
+
+**Additional Resource:** If you don't know how to do so, you can refer to [this](https://towardsdatascience.com/vectorization-implementation-in-machine-learning-ca652920c55d) article.
 
 ---
 
