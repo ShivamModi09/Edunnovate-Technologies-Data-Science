@@ -123,15 +123,10 @@ Under Back Propagation, we use the loss calculated using loss function to make c
 
 ## Multi-class Classification using NN
 Rather than just to classify an object between yes/no. If we wish to classify it into more than 2 items using NN, we can do it similarly just the only difference will be that the output yhat will be a Mx1 matrix rather than 1x1 for a m class classifier.
-- refer this [article](https://towardsdatascience.com/multi-label-image-classification-with-neural-network-keras-ddc1ab1afede) to see it's implementatin.
-
 
 ## Useful Resources
 - A read to these notes: [CS229](http://cs229.stanford.edu/notes/cs229-notes-deep_learning.pdf) , [Multi Layer NN](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/) and [CS229:Backprop](http://cs229.stanford.edu/notes/cs229-notes-backprop.pdf) is a worth to compile your understandings
-- Refer to this [playlist](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU) to see implementation of a complete NN
 - Check this [link](https://medium.com/@shaistha24/basic-concepts-you-should-know-before-starting-with-the-neural-networks-nn-3-6db79028e56d) for an intuitive run through and answers to few questions rising inside you.
-## Additional Resources to explore
-- Refer to this [article](http://neuralnetworksanddeeplearning.com/chap3.html) to know more intuitively about various topics and learn how to improve your model.
 
 ## Assignment
 ***
