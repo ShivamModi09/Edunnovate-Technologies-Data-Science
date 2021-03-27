@@ -82,4 +82,4 @@ Read [this](https://towardsdatascience.com/calculus-in-data-science-and-its-uses
 ### Linear Algebra
 Read [this](https://towardsdatascience.com/boost-your-data-sciences-skills-learn-linear-algebra-2c30fdd008cf) to get a hang of the concepts that are employed in Machine Learning.
 
-Don’t worry if you don’t understand all of it at once. You can skip this for now and maybe read it later as per your need.
+Don’t worry if you don’t understand all of it at once. You can skip solving numerous of mathematical questions on these topics for now and maybe do it later as per your need but do keep this concepts in your mind.
