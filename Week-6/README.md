@@ -15,7 +15,7 @@ pip install keras
 import tensorflow as tf
 from tensorflow import keras
 ~~~
-Note that you don't need to remember any of the syntax for importing different modules, just google whatever you need. The documentation provided by Tensorflow & Keras is already extremely detailed and easy to understand. Even an industrial level Data Scientist still depends on it, you can find it [here](https://keras.io/).
+Note that you don't need to remember any of the syntax for importing different modules, just google whatever you need. The documentation provided by Tensorflow & Keras is already extremely detailed and easy to understand.<br/> Even an industrial level Data Scientist still depends on it, you can find it [here](https://keras.io/).
 
 ## Convolutional Nerual Networks
 ### Introduction 
