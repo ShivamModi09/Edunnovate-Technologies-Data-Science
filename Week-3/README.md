@@ -28,7 +28,7 @@ It is S-Shaped and bounded function. It is also called as squashing function, wh
 ~~~
 #Import Library
 from sklearn.linear_model import LogisticRegression
-#Assumed you, X(predictor) and y(target) for training data set and x_test(predictor) of test_dataset
+#Assumed you have, X(predictor) and y(target) for training data set and x_test(predictor) of test_dataset
 
 #Create logistic regression object
 model = LogisticRegression()
@@ -53,7 +53,7 @@ To split the population into different heterogeneous groups, it uses various tec
 ~~~
 #Import Library
 from sklearn import tree
-#Assumed you, X(predictor) and y(target) for training data set and x_test(predictor) of test_dataset
+#Assumed you have, X(predictor) and y(target) for training data set and x_test(predictor) of test_dataset
 
 #Create tree object
 model = tree.DecisionTreeClassifier(criterion='gini') #here you can change according to your convinience
@@ -65,5 +65,5 @@ model.score(X,y)
 #Predict Output
 predicted = model.predict(x_test)
 ~~~
-
+---
 That's all for this week. Next week, we'll encounter other needful machine learning algorithms, till then have fun exercising Data Analytics techniques.  
