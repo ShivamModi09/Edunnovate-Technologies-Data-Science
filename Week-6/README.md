@@ -17,7 +17,85 @@ from tensorflow import keras
 ~~~
 Note that you don't need to remember any of the syntax for importing different modules, just google whatever you need. The documentation provided by Tensorflow & Keras is already extremely detailed and easy to understand.<br/> Even an industrial level Data Scientist still depends on it, you can find it [here](https://keras.io/).
 
-## Convolutional Nerual Networks
+## Keras Cheatsheet
+~~~
+**Import**
+from keras.models import Sequential
+
+from keras.layers import Dense, Activation
+
+from keras.optimizers import SGD
+
+
+**Sequential model is a linear stack of layers**
+model = Sequential()
+
+
+**Stacking layers, first layer needs to receive input size**
+model.add(Dense(output_dim=64, input_dim=100))
+
+model.add(Activation("tanh"))
+
+model.add(Dense(output_dim=10))
+
+model.add(Activation("softmax"))
+
+
+**Configure learning process**
+model.compile(loss='categorical_crossentropy', optimizer=SGD(lr=0.01, momentum=0.9, nesterov=True))
+
+
+**Set epochs and batch size**
+model.fit(X_train, Y_train, nb_epoch=5, batch_size=32)
+
+
+**Evaluate performance**
+loss_and_metrics = model.evaluate(X_test, Y_test, batch_size=32)
+
+
+**Summarise model**
+model.summary() # prints summary representation of model
+
+model.get_config() # returns dictionary with config of model
+
+model.get_weights() # returns list of weight tensors
+
+
+**Summarise layers**
+layer.get_weights() # returns weights of a layer
+
+
+**Save model’s architecture, weights, training configurations, state of optimiser to resume training**
+model.save(filepath) # save entire model
+
+json_string = model.to_json () # save architecture only (JSON or YAML)
+
+model.save_weights(weights.h5) # save weights only (HDF5)
+
+
+**Load model**
+keras.models.load_model(filepath) # load entire model
+
+model = model_from_json(json_string) # load architecture model
+
+model.load_weights(weights.h5) # load weights
+
+
+**Freeze layers**
+frozen_layer = Dense(32, trainable=False)
+
+**Pretrained models**
+from keras.applications.vgg16 impoprt VGG16
+
+from keras.applications.vgg19 impoprt VGG19
+
+from keras.applications.resnet50 impoprt ResNet50
+
+from keras.applications.inception_v3 impoprt InceptionV3
+
+model = VGG16(weights='imagenet', include_top=True)
+~~~
+## Convolutional Neural Networks
 ### Introduction 
 In the previous week, you studied about Neural Networks, specifically Feed Forward Neural Networks, in which you either have one or two hidden layers to map your input to the output. When several hidden layers are used in a Nerual Network, it is known as a **Deep Neural Network (DNN)** and this is where Deep Learning comes into the picture. A DNN is a basic unit of any Deep Learning architecture. 
 
