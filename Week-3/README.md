@@ -11,7 +11,7 @@ Welcome to Week 3! This week we will be covering rest of essential Data Analysis
 - Correlation and Causation
 - ANOVA
 
-## Data Analytics techniques and Assignment-1
+## Data Analytics techniques and Assignment of the Week
 Use this following assignment link or Download it from above Week 3 files list and give yourself time here as this is final and very important assignment conceptually as well as regarding technical practice wise. You'll learn in detail and apply above given contents in this assignment.
 - **[Data Analysis Assignment-1](https://colab.research.google.com/drive/1AdGbO_A40pGOxxBs5kCfvrOyuAQyX5o4?usp=sharing)**
 ---
@@ -44,3 +44,26 @@ print('Intercept:',model.intercept_)
 #Predict Output
 predicted = model.predict(x_test)
 ~~~
+
+## Decision Tree
+It is a type of Supervised learning algorithm that is mostly used for classification problems. Suprisingly, it works for both categorical and continuous dependent variables. In this algorithm, we split the population into two or more homogeneous sets. This is done based on most significant attributes/independent variables to make as distinct groups as possible.<br/>
+A Decision tree is a flowchart like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label. Decision trees classify instances by sorting them down the tree from the root to some leaf node, which provides the classification of the instance. An instance is classified by starting at the root node of the tree,testing the attribute specified by this node,then moving down the tree branch corresponding to the value of the attribute and this process is then repeated for the subtree rooted at the new node.<br/>
+To split the population into different heterogeneous groups, it uses various techniques like Gini, Information Gain, Chi-square, entropy. 
+### Python Code:
+~~~
+#Import Library
+from sklearn import tree
+#Assumed you, X(predictor) and y(target) for training data set and x_test(predictor) of test_dataset
+
+#Create tree object
+model = tree.DecisionTreeClassifier(criterion='gini') #here you can change according to your convinience
+# model = tree.DecisionTreeRegressor() for regression
+#Train the model using training set and check score
+model.fit(X,y)
+model.score(X,y)
+
+#Predict Output
+predicted = model.predict(x_test)
+~~~
+
+That's all for this week. Next week, we'll encounter other needful machine learning algorithms, till then have fun exercising Data Analytics techniques.  
