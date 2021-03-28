@@ -14,7 +14,7 @@ Welcome to Week 3! This week we will be covering rest of essential Data Analysis
 ## Data Analytics techniques and Assignment-1
 Use this following assignment link or Download it from above Week 3 files list and give yourself time here as this is final and very important assignment conceptually as well as regarding technical practice wise. You'll learn in detail and apply above given contents in this assignment.
 - **[Data Analysis Assignment-1](https://colab.research.google.com/drive/1AdGbO_A40pGOxxBs5kCfvrOyuAQyX5o4?usp=sharing)**
-
+---
 Hope you enjoyed and learn atmost you can from the Assignment-1. You must have seen that not only regression solutions are enough for our daily tasks but rather classification tasks play a major role in making our work a lot easier. Majority of advanced algorithms work on classification purpose. So now, let us learn and work on various important Machine Learning algorithms for Classification purpose.
 
 ## Logistic Regression
@@ -24,3 +24,23 @@ The sigmoid function is given by<br/>
 y = mx + c <br/>
 S(x) = 1/(1+e^(-y)) <br/>
 It is S-Shaped and bounded function. It is also called as squashing function, which maps the whole real axis into finite intervals. Usually, the predictions in the classification problem are probability values. So, we don't want our model to predict the probability value to be below 0 or above 1. Sigmoid function helps to achieve that, values below 0.5 is class 0 and values above or equal to 0.5 is class 1. <br/>
+### Python Code:
+~~~
+#Import Library
+from sklearn.linear_model import LogisticRegression
+#Assumed you, X(predictor) and y(target) for training data set and x_test(predictor) of test_dataset
+
+#Create logistic regression object
+model = LogisticRegression()
+
+#Train the model using training set and check score
+model.fit(X,y)
+model.score(X,y)
+
+#Equation coefficient and Intercept
+print('Coefficient:',model.coef_)
+print('Intercept:',model.intercept_)
+
+#Predict Output
+predicted = model.predict(x_test)
+~~~
