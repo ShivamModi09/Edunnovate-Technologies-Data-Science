@@ -17,9 +17,19 @@ from tensorflow import keras
 ~~~
 Note that you don't need to remember any of the syntax for importing different modules, just google whatever you need. The documentation provided by Tensorflow & Keras is already extremely detailed and easy to understand.<br/> Even an industrial level Data Scientist still depends on it, you can find it [here](https://keras.io/).
 
+## Transfer Learning
+Sophisticated deep learning models have millions of parameters (weights) and training them from scratch often requires large amounts of data of computing resources. Transfer learning is a technique that shortcuts much of this by taking a piece of a model that has already been trained on a related task and reusing it in a new model.<br/>
+
+For example, if you want to build your own image recognizer that takes advantage of a model that was already trained to recognize 1000s of different kinds of objects within images. You can adapt the existing knowledge in the pre-trained model to detect your own image classes using much less training data than the original model required.<br/>
+
+This is useful for rapidly developing new models as well as customizing models in resource contstrained environments like browsers and mobile devices.
+
+Most often when doing transfer learning, we don't adjust the weights of the original model. Instead we remove the final layer and train a new (often fairly shallow) model on top of the output of the truncated model. 
+
 ## Keras Cheatsheet
+As mostly, you will be using Keras for all your projects, it would be more convinient to look at its cheatsheet and refer to it whenever required.   
 ~~~
-**Import**
+#Import
 from keras.models import Sequential
 
 from keras.layers import Dense, Activation
@@ -27,11 +37,11 @@ from keras.layers import Dense, Activation
 from keras.optimizers import SGD
 
 
-**Sequential model is a linear stack of layers**
+#Sequential model is a linear stack of layers
 model = Sequential()
 
 
-**Stacking layers, first layer needs to receive input size**
+#Stacking layers, first layer needs to receive input size
 model.add(Dense(output_dim=64, input_dim=100))
 
 model.add(Activation("tanh"))
@@ -41,19 +51,19 @@ model.add(Dense(output_dim=10))
 model.add(Activation("softmax"))
 
 
-**Configure learning process**
+#Configure learning process
 model.compile(loss='categorical_crossentropy', optimizer=SGD(lr=0.01, momentum=0.9, nesterov=True))
 
 
-**Set epochs and batch size**
+#Set epochs and batch size
 model.fit(X_train, Y_train, nb_epoch=5, batch_size=32)
 
 
-**Evaluate performance**
+#Evaluate performance
 loss_and_metrics = model.evaluate(X_test, Y_test, batch_size=32)
 
 
-**Summarise model**
+#Summarise model
 model.summary() # prints summary representation of model
 
 model.get_config() # returns dictionary with config of model
@@ -61,11 +71,11 @@ model.get_config() # returns dictionary with config of model
 model.get_weights() # returns list of weight tensors
 
 
-**Summarise layers**
+#Summarise layers
 layer.get_weights() # returns weights of a layer
 
 
-**Save model’s architecture, weights, training configurations, state of optimiser to resume training**
+#Save model’s architecture, weights, training configurations, state of optimiser to resume training
 model.save(filepath) # save entire model
 
 json_string = model.to_json () # save architecture only (JSON or YAML)
@@ -73,18 +83,17 @@ json_string = model.to_json () # save architecture only (JSON or YAML)
 model.save_weights(weights.h5) # save weights only (HDF5)
 
 
-**Load model**
+#Load model
 keras.models.load_model(filepath) # load entire model
 
 model = model_from_json(json_string) # load architecture model
 
 model.load_weights(weights.h5) # load weights
 
-
-**Freeze layers**
+#Freeze layers
 frozen_layer = Dense(32, trainable=False)
 
-**Pretrained models**
+#Pretrained models
 from keras.applications.vgg16 impoprt VGG16
 
 from keras.applications.vgg19 impoprt VGG19
