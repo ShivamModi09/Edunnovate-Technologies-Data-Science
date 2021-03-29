@@ -24,7 +24,7 @@ predicted = model.predict(x_test)
 ~~~
 Now, let us look some important terms of Data Science
 ## SQL
-SQL, or Structured Query Language, is a language to talk to databases. It allows you to select specific data and to build complex reports. Today, SQL is a universal language of data. It is used in practically all technologies that process data. You can find the SQL cheatsheet under Week-8 folder.
+SQL, or Structured Query Language, is a language to talk to databases. It allows you to select specific data and to build complex reports. Today, SQL is a universal language of data. It is used in practically all technologies that process data. You can find the[ SQL cheatsheet](https://github.com/ShivamModi09/Edunnovate-Technologies-Data-Science/blob/main/Week-8/SQL-cheat-sheet.pdf) under Week-8 folder.
 <br/>
 <br/>
 Till now, we have used Keras for our assignments but there are other frameworks which give certain other benifits over keras. One of the most famous such framework is PyTorch.  
