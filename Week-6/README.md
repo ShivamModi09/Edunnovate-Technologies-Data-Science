@@ -138,3 +138,5 @@ Here is a fine article on [Convolution networks](https://cs231n.github.io/convol
 ## Assignment
 ---
 Finally, we will end this week's tutorial by performing an Image Classification task accomplished using Convolutional Neural Networks. For this assignment, you'll design an Image Classification model using CIFAR-10 data set. You don't need to explicitly download the dataset as it's already available in keras datasets collections. Don't forget to use the Keras cheatsheet and follow the steps given in workflow of ANN to build your classification model. 
+*** 
+The solution to the assignment is given under the Week-6 folder. Please refer to it after trying the assignment by your own.
