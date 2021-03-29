@@ -54,3 +54,27 @@ Feature engineering is the process of using domain knowledge of the data to crea
 We use an ensemble method of machine learning where multiple models are used and their combination produces better results than a single model(Support Vector Machine/Naive Bayes). Ensemble methods are the first choice for many Kaggle Competitions. Random Forest i.e multiple random decision trees are constructed and the aggregates of each tree are used for the final prediction. It can be used for classification as well as regression problems. It follows a bagging strategy where randomly.
 Grid-search: It exhaustively searches overall parameter combinations in a given grid to determine the best model.
 Cross-validation: It divides a data set into k subsets and repeat the method k times where a different subset is used as the test set i.e in each iteration.
+## Conclusion
+With NLP there are many different tools and methods you can use. It is worth taking the time to understand how the NLP libraries preprocess text in different ways, ensuring you choose the best method for your task. Making use of pipelines with the preprocessing and modeling steps help to streamline the workflow while cleaning up the code.
+<br/>
+Now, as we learnt above NLP and soon we'll apply it but before that, let us learn about one of the essential field on which constant researches are going on. Imagine that you have to create a machine that can perform a specific action without any assistance from humans. But, accomplishing such real-world tasks by a machine is a complex process. Thus, you need a technique that allows the machine to learn by itself. This technique is reinforcement learning.
+## Reinforcement Learning
+Reinforcement learning is an area of Data Science. It is about taking suitable action to maximize reward in a particular situation. It is employed by various software and machines to find the best possible behavior or path it should take in a specific situation. Reinforcement learning differs from the supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. In the absence of a training dataset, it is bound to learn from its experience.
+### Main points in Reinforcement learning –
+- Input: The input should be an initial state from which the model will start
+- Output: There are many possible output as there are variety of solution to a particular problem
+- Training: The training is based upon the input, The model will return a state and the user will decide to reward or punish the model based on its output.
+- The model keeps continues to learn.
+- The best solution is decided based on the maximum reward.
+### Various Practical applications of Reinforcement Learning –
+- RL can be used in robotics for industrial automation.
+- RL can be used in machine learning and data processing
+- RL can be used to create training systems that provide custom instruction and materials according to the requirement of students.
+### RL can be used in large environments in the following situations:
+- A model of the environment is known, but an analytic solution is not available.
+- Only a simulation model of the environment is given (the subject of simulation-based optimization)
+- The only way to collect information about the environment is to interact with it.
+## Assignment
+---
+For this week assignment, you'll be using the above-discussed sections on NLP combined to build a Spam-Ham Classifier. You will need to download the dataset 'SMSSpamCollection.tsv' which is Week-7 folder to use it for your assignment.
+Solution to the Assignment is also under Week-7 folder, refer to it after trying the assignment by your own.
