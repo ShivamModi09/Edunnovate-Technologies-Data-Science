@@ -17,6 +17,22 @@ from tensorflow import keras
 ~~~
 Note that you don't need to remember any of the syntax for importing different modules, just google whatever you need. The documentation provided by Tensorflow & Keras is already extremely detailed and easy to understand.<br/> Even an industrial level Data Scientist still depends on it, you can find it [here](https://keras.io/).
 
+### Workflow of ANN
+Before coding our first Neural Network using Tensorflow and keras, let us first understand the different phases of deep learning and then, learn how Keras helps in the process of deep learning.
+1. Collect required data
+- Deep learning requires a lot of input data to successfully learn and predict the result. So, first collect as much data as possible.
+2. Analyze data
+- Analyze the data and acquire a good understanding of the data. The better understanding of the data is required to select the correct ANN algorithm.
+3. Choose an algorithm (model)
+- Choose an algorithm, which will best fit for the type of learning process (e.g image classification, text processing, etc) and the available input data. Algorithms are represented by models in Keras. Algorithms include one or more layers. Each layer in ANN can be represented by the Keras Layer in Keras.
+4. Prepare data − Process, filter and select only the required information from the data.
+5. Split data − Split the data into training and test data sets. Test data will be used to evaluate the prediction of the algorithm / Model (once the machine learns) and to cross check the efficiency of the learning process.
+6. Compile the model − Compile the algorithm / model, so that it can be used further to learn by training and finally do prediction. This step requires us to choose loss function and Optimizer. Loss function and Optimizer are used in the learning phase to find the error (deviation from actual output) and do optimization so that the error will be minimized.
+7. Fit the model − The actual learning process will be done in this phase using the training data set.
+8. Predict result for unknown value − Predict the output for the unknown input data (other than existing training and test data)
+9. Evaluate model − Evaluate the model by predicting the output for test data and cross-comparing the prediction with actual result of the test data.
+Freeze, Modify or choose new algorithm − Check whether the evaluation of the model is successful. If yes, save the algorithm for future prediction purposes. If not, then modify or choose a new algorithm / model and finally, again train, predict and evaluate the model. Repeat the process until the best algorithm (model) is found.
+
 ## Convolutional Neural Networks
 ### Introduction 
 In the previous week, you studied about Neural Networks, specifically Feed Forward Neural Networks, in which you either have one or two hidden layers to map your input to the output. When several hidden layers are used in a Nerual Network, it is known as a **Deep Neural Network (DNN)** and this is where Deep Learning comes into the picture. A DNN is a basic unit of any Deep Learning architecture. 
@@ -121,4 +137,4 @@ model = VGG16(weights='imagenet', include_top=True)
 Here is a fine article on [Convolution networks](https://cs231n.github.io/convolutional-networks/#conv), going through it will be surely beneficial for your visual understanding. 
 ## Assignment
 ---
-Finally, we will end this week's tutorial by performing an Image Classification task accomplished using Convolutional Neural Networks. For this assignment, you'll design an Image Classification model using CIFAR-10 data set. You don't need to explicitly download the dataset as it's already available in keras datasets collections. Use the Keras cheatsheet. 
+Finally, we will end this week's tutorial by performing an Image Classification task accomplished using Convolutional Neural Networks. For this assignment, you'll design an Image Classification model using CIFAR-10 data set. You don't need to explicitly download the dataset as it's already available in keras datasets collections. Don't forget to use the Keras cheatsheet and follow the steps given in workflow of ANN to build your classification model. 
