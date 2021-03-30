@@ -4,7 +4,6 @@ At Edunnovate Technologies, our mission is to equip young people with real world
 Following is the course structure that we are going to follow throughout the course:
 
 
-
 “Machine intelligence is the last invention that humanity will ever need to make.”    -Nick Bostrom
 ***
 # Structure of the Course
@@ -21,9 +20,17 @@ We begin our journey in the world of Machine Learning by laying down the foundat
 
 ## Week 2
 ***
+After brushing up the Basics, in the second week of course, we step into 2 important terms:- Data Analytics and Machine Learning. We begin our walk with basics of Machine Learning i.e. Regression and Classification. 
+
+* We first introduce to the essential Python packages for data science and understand the definition of Machine Learning and types of machine learning algorithms. 
+* **Linear Regression** is probably one of the most fundamental ideas in Machine Learning and in fact, Machine Learning build around Linear Regression.
+* A more efficient model than simple Linear Regression finds it's way onto the middle often referred to as **Segmented Regression**. We talk about the relative performance of this model wrt Simple Linear Regression. 
+* A really good Linear Regression model based on really good observations is **Locally Weighted Regression**, which we talk in detail about.
+* We practice **Exploratory Data Analysis** techniques with our very first real coding experience which lays a great foundation for Data analysis on Classification and Regression problems under Supervised machine learning.
 
 ## Week 3
 ***
+
 ## Week 4
 ---
 ## Week 5
