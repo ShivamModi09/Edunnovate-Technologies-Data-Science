@@ -38,8 +38,7 @@ PyTorch has a reputation for being more widely used in research than in producti
 - Easier to do non-standard or research applications
 - Less support from the ecosystem
 <br/>
-<br/>
-It has a very good documentation of its own, you can always refer to it for any kind of difficulties.
+It has a very good documentation of its own, it's worth looking as you can always refer to it for any kind of difficulties.
 
 ## Image Classification Example with PyTorch
 One of the popular methods to learn the basics of deep learning is with the MNIST dataset. It is the "Hello World" in deep learning. The dataset contains handwritten numbers from 0 - 9 with the total of 60,000 training samples and 10,000 test samples that are already labeled with the size of 28x28 pixels.
