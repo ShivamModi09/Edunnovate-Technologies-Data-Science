@@ -79,6 +79,5 @@ This week we first encounter with a widely used unsupervised learning alogrithm 
 * Then we learn about a language called **SQL (Structured Query Language)** which allows you to talk to databases.
 * To gain better understandings of this library, we finally discuss the **Image Classification example with PyTorch**.
 <br/>
-<br/>
 ---
 With this we come to the end of our course that was developed completely by the **Edunnovate Technologies** with great efforts and an ambition to give the reader a tour of the really amazing Data Science field and acquaint you with the potential of Artificial Intelligence to revolutionise the era of technology and make this world even more exciting.
