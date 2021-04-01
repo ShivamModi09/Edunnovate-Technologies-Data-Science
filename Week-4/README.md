@@ -67,7 +67,7 @@ predicted = model.predict(x_test)
 
 ## Random Forest
 Random Forest is a trademark term for an ensemble of decision trees.<br/> 
-**Model Ensembling:** Ensemble models are nothing but an aggregation of a number of Weak Learners, a model performing just better than random guessing. 
+**Model Ensembling:** Ensemble models are nothing but an aggregation of a number of Weak Learners, a model performing just better than random guessing.<br/>
 In Random Forest, we have collection of decision trees(so known as "Forest"). To classify a new object based on attributes, each tree gives a classification and we say the tree "votes" for that class. The forest chooses the classification having the most votes(over all the trees in the forest) 
 ### Python Code:
 ~~~
