@@ -77,5 +77,5 @@ Reinforcement learning is an area of Data Science. It is about taking suitable a
 - The only way to collect information about the environment is to interact with it.
 ## Assignment
 ---
-For this week assignment, you'll be using the above-discussed sections on NLP combined to build a Spam-Ham Classifier. You will need to download the dataset '[SMSSpamCollection.tsv](https://github.com/ShivamModi09/Edunnovate-Technologies-Data-Science/blob/main/Week-7/SMSSpamCollection.tsv)' which is Week-7 folder to use it for your assignment.
+For this week assignment, you'll be using the above-discussed sections on NLP combined to build a Spam-Ham Classifier. You will need to download the dataset '[SMSSpamCollection.tsv](https://github.com/ShivamModi09/Edunnovate-Technologies-Data-Science/blob/main/Week-7/SMSSpamCollection.tsv)' under Week-7 folder to use it for your assignment. You can take help of NLTK's [documentation](https://www.nltk.org/).
 Solution to the Assignment is also under Week-7 folder with name 'NLP.ipynb', refer to it after trying the assignment by your own.
